@@ -10,7 +10,6 @@ function AppComponent() {
         <h1>This is The AppComponent that the other parts of the app are pushed to.</h1>
         
         <Playlist />
-        <Tracklist />
         </div>
 
     )
