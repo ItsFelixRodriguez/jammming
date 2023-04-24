@@ -18,6 +18,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <p>Hey. This is Felix. The Developer of this playlist app. </p>
+      </body>
     </div>
   );
 }
