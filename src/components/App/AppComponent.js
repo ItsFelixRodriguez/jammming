@@ -1,14 +1,16 @@
 import React from "react";
 import './App.css'
+import Playlist from "../Playlist/Playlist";
+import Tracklist from "../Tracklist/Tracklist";
 
 
 function AppComponent() {
     return (
         <div>
-        <h1>Test Test</h1>
-        <p> Here's some math! 1 + 1 = {1+1} </p>
-        <p>^ I coded that math problem into the react file. React is pretty cool and honestly refreshingly fast so far. 
-        </p>
+        <h1>This is The AppComponent that the other parts of the app are pushed to.</h1>
+        
+        <Playlist />
+        <Tracklist />
         </div>
 
     )
