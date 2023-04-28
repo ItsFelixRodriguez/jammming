@@ -16,3 +16,9 @@ div {
     flex-direction: row;
     align-items: flex-start;
 }
+.SaveTo {
+    border-radius: 25px;
+    background-color: blueviolet;
+    border-style: solid;
+    margin: 20px;
+}
