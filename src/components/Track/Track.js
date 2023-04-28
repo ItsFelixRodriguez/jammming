@@ -3,10 +3,10 @@ import { useState } from "react";
 import './Track.css';
 
 function Track() {
-    const [count, setCount] = useState(0);
-    function handleClick() {
-        setCount(count +1);
-    }
+    // const [count, setCount] = useState(0);
+    // function handleClick() {
+    //     setCount(count +1);
+    // }
 
     return (
         <div>
@@ -16,9 +16,9 @@ function Track() {
 
        </ol>
       
-            <button onClick={handleClick}>
+            {/* <button onClick={handleClick}>
                 I have been clicked {count} times
-            </button>
+            </button> */}
         </div>
     )
 }

@@ -4,9 +4,12 @@ import Tracklist from "../Tracklist/Tracklist";
 
 function Playlist () {
     return (
-       <div>
-       <h2>Playlist</h2>
+        <div>
+        <h3>Playlist</h3>
+       <div className="playlist">
+       
        <Tracklist />
+        </div>
         </div>
     )
 };
