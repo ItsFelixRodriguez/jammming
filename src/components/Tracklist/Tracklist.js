@@ -5,7 +5,7 @@ import Track from "../Track/Track";
 function Tracklist() {
     return (
         <div>
-            <h3> I'm a tracklist component exported to AppComponent.js</h3>
+            <h3> Tracklist</h3>
             <ul>
                 <li><Track /></li>
             </ul>
